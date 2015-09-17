@@ -1,5 +1,5 @@
-world = input("Enter a string: ")
+def countToTen():
+    for i in range(11):
+        print(i)
 
-world = world.upper()
-
-print(world)
+countToTen()
